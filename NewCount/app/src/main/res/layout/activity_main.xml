@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="239dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="100sp" />
+
+    <Button
+        android:id="@+id/countInc"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="0dp"
+        android:background="#E91E63"
+        android:text="+"
+        android:textColor="#F6F2F3" />
+
+    <Button
+        android:id="@+id/countDec"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginBottom="2dp"
+        android:background="#00BCD4"
+        android:text="-"
+        android:textColor="#F3F0F0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/countZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginBottom="0dp"
+        android:background="#4CAF50"
+
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="-1dp"
+        android:background="#F8450C"
+        android:text="Toast"
+        android:textColor="#EFE8E8"
+        android:textSize="16sp" />
+
+</RelativeLayout>
